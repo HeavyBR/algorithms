@@ -1,7 +1,7 @@
 defmodule BinarySearch do
   @moduledoc """
   This implementation is just for educational purposes, Elixir uses linked lists as their list implementation,
-  so do binary search on that type of list is not a good idea.
+  so do binary search on that type of list is not a good idea because we have a O(n) time access on random elements.
   """
 
   def search(list, item) do
